@@ -62,7 +62,7 @@ def search():
         query += f"ORDER BY {column} {order}"
         args['column'] = f"%{column}%"
 
-   
+   #tg335
     # TODO search-7 append limit (default 10) or limit greater than or equal to 1 and less than or equal to 100
     # TODO search-8 provide a proper error message if limit isn't a number or if it's out of bounds
     limit = 10 # TODO change this per the above requirements
